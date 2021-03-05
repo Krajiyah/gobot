@@ -111,6 +111,11 @@ func (h *MPU6050Driver) GetData() (err error) {
 	return
 }
 
+func (h *MPU6050Driver) WriteToRegister(register, bit, length, value int) error {
+   	_, err = h.connection.Write([]byte{register, bit, length, value})
+   	return err
+}
+
 func (h *MPU6050Driver) initialize() (err error) {
 	bus := h.GetBusOrDefault(h.connector.GetDefaultBus())
 	address := h.GetAddressOrDefault(mpu6050Address)
