@@ -112,7 +112,7 @@ func (h *MPU6050Driver) GetData() (err error) {
 }
 
 func (h *MPU6050Driver) WriteToRegister(register, bit, length, value int) error {
-	_, err = h.connection.Write([]byte{register, bit, length, value})
+	_, err := h.connection.Write([]byte{register, bit, length, value})
 	return err
 }
 
