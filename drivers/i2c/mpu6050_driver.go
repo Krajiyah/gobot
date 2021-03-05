@@ -22,7 +22,7 @@ const MPU6050_GCONFIG_FS_SEL_BIT = 4
 const MPU6050_RA_ACCEL_CONFIG = 0x1C
 const MPU6050_ACONFIG_AFS_SEL_BIT = 4
 const MPU6050_ACONFIG_AFS_SEL_LENGTH = 2
-const MPU6050_ACCEL_FS_4 = 0x01
+const MPU6050_ACCEL_FS_17 = 0x11
 const MPU6050_PWR1_SLEEP_BIT = 6
 const MPU6050_PWR1_ENABLE_BIT = 0
 
@@ -140,7 +140,7 @@ func (h *MPU6050Driver) initialize() (err error) {
 	if _, err = h.connection.Write([]byte{MPU6050_RA_ACCEL_CONFIG,
 		MPU6050_ACONFIG_AFS_SEL_BIT,
 		MPU6050_ACONFIG_AFS_SEL_LENGTH,
-		MPU6050_ACCEL_FS_4}); err != nil {
+		MPU6050_ACCEL_FS_17}); err != nil {
 		return
 	}
 
