@@ -7,10 +7,10 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/api"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/api"
+	"github.com/Krajiyah/gobot/drivers/gpio"
+	"github.com/Krajiyah/gobot/platforms/firmata"
 )
 
 func main() {

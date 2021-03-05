@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 // The CCS811 Meets the Driver Definition

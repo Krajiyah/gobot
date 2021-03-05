@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
 )
 
 var _ gobot.Adaptor = (*Adaptor)(nil)

@@ -6,14 +6,15 @@ package main
 
 import (
 	"fmt"
+	"image"
 	"math"
 	"path"
 	"runtime"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/opencv"
-	"gobot.io/x/gobot/platforms/parrot/ardrone"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/platforms/opencv"
+	"github.com/Krajiyah/gobot/platforms/parrot/ardrone"
 	"gocv.io/x/gocv"
 )
 

@@ -17,9 +17,9 @@ import (
 	"fmt"
 	"os"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/sphero/bb8"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/platforms/ble"
+	"github.com/Krajiyah/gobot/platforms/sphero/bb8"
 )
 
 func main() {

@@ -8,9 +8,9 @@ import (
 	"log"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/raspi"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/i2c"
+	"github.com/Krajiyah/gobot/platforms/raspi"
 )
 
 var (

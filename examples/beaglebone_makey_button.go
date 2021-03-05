@@ -7,9 +7,9 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/beaglebone"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/gpio"
+	"github.com/Krajiyah/gobot/platforms/beaglebone"
 )
 
 func main() {

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/i2c"
+	"github.com/Krajiyah/gobot/drivers/spi"
+	"github.com/Krajiyah/gobot/sysfs"
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/drivers/spi"
-	"gobot.io/x/gobot/sysfs"
 )
 
 type pwmPinData struct {

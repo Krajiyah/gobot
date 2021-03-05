@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"sync"
 
-	"gobot.io/x/gobot"
+	"github.com/Krajiyah/gobot"
 )
 
 var _ gobot.Driver = (*MotorDriver)(nil)

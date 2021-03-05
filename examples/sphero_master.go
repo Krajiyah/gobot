@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/sphero"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/platforms/sphero"
 )
 
 func main() {

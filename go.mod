@@ -1,4 +1,4 @@
-module gobot.io/x/gobot
+module github.com/Krajiyah/gobot
 
 go 1.13
 

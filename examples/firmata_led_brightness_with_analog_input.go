@@ -15,10 +15,10 @@ import (
 	"fmt"
 	"os"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/firmata"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/aio"
+	"github.com/Krajiyah/gobot/drivers/gpio"
+	"github.com/Krajiyah/gobot/platforms/firmata"
 )
 
 func main() {

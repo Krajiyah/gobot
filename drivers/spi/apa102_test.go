@@ -4,8 +4,8 @@ import (
 	"image/color"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*APA102Driver)(nil)

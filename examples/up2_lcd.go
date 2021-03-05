@@ -7,9 +7,9 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/platforms/upboard/up2"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/i2c"
+	"github.com/Krajiyah/gobot/platforms/upboard/up2"
 )
 
 func main() {

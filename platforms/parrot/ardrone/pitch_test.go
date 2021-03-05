@@ -3,7 +3,7 @@ package ardrone
 import (
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 func TestArdroneValidatePitchWhenEqualOffset(t *testing.T) {

@@ -3,7 +3,7 @@ package gpio
 import (
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Krajiyah/gobot"
 )
 
 // MakeyButtonDriver Represents a Makey Button

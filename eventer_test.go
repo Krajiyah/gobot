@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 func TestEventerAddEvent(t *testing.T) {

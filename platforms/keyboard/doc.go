@@ -5,7 +5,7 @@ Installing:
 
 Then you can install the package with:
 
-	go get gobot.io/x/gobot && go install gobot.io/x/gobot/platforms/keyboard
+	go get github.com/Krajiyah/gobot && go install github.com/Krajiyah/gobot/platforms/keyboard
 
 Example:
 
@@ -14,8 +14,8 @@ Example:
 	import (
 		"fmt"
 
-		"gobot.io/x/gobot"
-		"gobot.io/x/gobot/platforms/keyboard"
+		"github.com/Krajiyah/gobot"
+		"github.com/Krajiyah/gobot/platforms/keyboard"
 	)
 
 	func main() {
@@ -46,4 +46,4 @@ Example:
 For further information refer to keyboard README:
 https://github.com/hybridgroup/gobot/blob/master/platforms/keyboard/README.md
 */
-package keyboard // import "gobot.io/x/gobot/platforms/keyboard"
+package keyboard // import "github.com/Krajiyah/gobot/platforms/keyboard"

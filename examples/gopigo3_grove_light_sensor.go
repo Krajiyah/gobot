@@ -7,10 +7,10 @@ package main
 import (
 	"fmt"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/aio"
-	"gobot.io/x/gobot/platforms/dexter/gopigo3"
-	"gobot.io/x/gobot/platforms/raspi"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/aio"
+	"github.com/Krajiyah/gobot/platforms/dexter/gopigo3"
+	"github.com/Krajiyah/gobot/platforms/raspi"
 )
 
 func main() {

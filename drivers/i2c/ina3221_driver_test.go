@@ -7,8 +7,8 @@ import (
 
 	"strings"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 var _ gobot.Driver = (*INA3221Driver)(nil)

@@ -7,8 +7,8 @@ package main
 import (
 	"time"
 
-	"gobot.io/x/gobot/drivers/gpio"
-	"gobot.io/x/gobot/platforms/intel-iot/edison"
+	"github.com/Krajiyah/gobot/drivers/gpio"
+	"github.com/Krajiyah/gobot/platforms/intel-iot/edison"
 )
 
 // Example of a simple led toggle without the initialization of

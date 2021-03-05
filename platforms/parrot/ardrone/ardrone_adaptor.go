@@ -1,8 +1,8 @@
 package ardrone
 
 import (
+	"github.com/Krajiyah/gobot"
 	client "github.com/hybridgroup/go-ardrone/client"
-	"gobot.io/x/gobot"
 )
 
 // drone defines expected drone behaviour

@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/drivers/i2c"
+	"github.com/Krajiyah/gobot/sysfs"
 	multierror "github.com/hashicorp/go-multierror"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/drivers/i2c"
-	"gobot.io/x/gobot/sysfs"
 )
 
 // Adaptor represents a Gobot Adaptor for a DragonBoard 410c

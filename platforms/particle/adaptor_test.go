@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 	"github.com/donovanhide/eventsource"
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
 )
 
 // HELPERS

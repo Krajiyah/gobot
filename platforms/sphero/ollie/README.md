@@ -5,7 +5,7 @@ The Sphero Ollie is a toy robot from Sphero that is controlled using Bluetooth L
 ## How to Install
 
 ```
-go get -d -u gobot.io/x/gobot/...
+go get -d -u github.com/Krajiyah/gobot/...
 ```
 
 ## How to Use
@@ -17,9 +17,9 @@ import (
 	"os"
 	"time"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/platforms/ble"
-	"gobot.io/x/gobot/platforms/sphero/ollie"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/platforms/ble"
+	"github.com/Krajiyah/gobot/platforms/sphero/ollie"
 )
 
 func main() {

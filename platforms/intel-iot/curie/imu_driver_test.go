@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"gobot.io/x/gobot"
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot"
+	"github.com/Krajiyah/gobot/gobottest"
 
-	"gobot.io/x/gobot/platforms/firmata"
-	"gobot.io/x/gobot/platforms/firmata/client"
+	"github.com/Krajiyah/gobot/platforms/firmata"
+	"github.com/Krajiyah/gobot/platforms/firmata/client"
 )
 
 var _ gobot.Driver = (*IMUDriver)(nil)

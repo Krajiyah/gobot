@@ -14,9 +14,9 @@ Here is a "Classic Gobot" program that blinks an LED using an Arduino:
     import (
     	"time"
 
-    	"gobot.io/x/gobot"
-    	"gobot.io/x/gobot/drivers/gpio"
-    	"gobot.io/x/gobot/platforms/firmata"
+    	"github.com/Krajiyah/gobot"
+    	"github.com/Krajiyah/gobot/drivers/gpio"
+    	"github.com/Krajiyah/gobot/platforms/firmata"
     )
 
     func main() {
@@ -45,8 +45,8 @@ You can also use Metal Gobot and pick and choose from the various Gobot packages
     package main
 
     import (
-    	"gobot.io/x/gobot/drivers/gpio"
-    	"gobot.io/x/gobot/platforms/intel-iot/edison"
+    	"github.com/Krajiyah/gobot/drivers/gpio"
+    	"github.com/Krajiyah/gobot/platforms/intel-iot/edison"
     	"time"
     )
 
@@ -73,9 +73,9 @@ Finally, you can use Master Gobot to add the complete Gobot API or control swarm
     	"fmt"
     	"time"
 
-    	"gobot.io/x/gobot"
-    	"gobot.io/x/gobot/api"
-    	"gobot.io/x/gobot/platforms/sphero"
+    	"github.com/Krajiyah/gobot"
+    	"github.com/Krajiyah/gobot/api"
+    	"github.com/Krajiyah/gobot/platforms/sphero"
     )
 
     func NewSwarmBot(port string) *gobot.Robot {
@@ -130,4 +130,4 @@ Finally, you can use Master Gobot to add the complete Gobot API or control swarm
 
 Copyright (c) 2013-2018 The Hybrid Group. Licensed under the Apache 2.0 license.
 */
-package gobot // import "gobot.io/x/gobot"
+package gobot // import "github.com/Krajiyah/gobot"

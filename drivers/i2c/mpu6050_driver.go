@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"time"
 
-	"gobot.io/x/gobot"
+	"github.com/Krajiyah/gobot"
 )
 
 const mpu6050Address = 0x68
@@ -112,8 +112,8 @@ func (h *MPU6050Driver) GetData() (err error) {
 }
 
 func (h *MPU6050Driver) WriteToRegister(register, bit, length, value int) error {
-   	_, err = h.connection.Write([]byte{register, bit, length, value})
-   	return err
+	_, err = h.connection.Write([]byte{register, bit, length, value})
+	return err
 }
 
 func (h *MPU6050Driver) initialize() (err error) {

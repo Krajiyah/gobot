@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strconv"
 
+	"github.com/Krajiyah/gobot"
 	"github.com/donovanhide/eventsource"
-	"gobot.io/x/gobot"
 )
 
 // Adaptor is the Gobot Adaptor for Particle

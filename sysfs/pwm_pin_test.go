@@ -5,7 +5,7 @@ import (
 	"syscall"
 	"testing"
 
-	"gobot.io/x/gobot/gobottest"
+	"github.com/Krajiyah/gobot/gobottest"
 )
 
 var _ PWMPinner = (*PWMPin)(nil)
