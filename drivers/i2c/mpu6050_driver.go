@@ -22,7 +22,7 @@ const MPU6050_GCONFIG_FS_SEL_BIT = 4
 const MPU6050_RA_ACCEL_CONFIG = 0x1C
 const MPU6050_ACONFIG_AFS_SEL_BIT = 4
 const MPU6050_ACONFIG_AFS_SEL_LENGTH = 2
-const MPU6050_ACCEL_FS_2 = 0x00
+const MPU6050_ACCEL_FS_4 = 0x01
 const MPU6050_PWR1_SLEEP_BIT = 6
 const MPU6050_PWR1_ENABLE_BIT = 0
 
@@ -111,11 +111,6 @@ func (h *MPU6050Driver) GetData() (err error) {
 	return
 }
 
-func (h *MPU6050Driver) WriteToRegister(register, bit, length, value int) error {
-	_, err := h.connection.Write([]byte{register, bit, length, value})
-	return err
-}
-
 func (h *MPU6050Driver) initialize() (err error) {
 	bus := h.GetBusOrDefault(h.connector.GetDefaultBus())
 	address := h.GetAddressOrDefault(mpu6050Address)
@@ -145,7 +140,7 @@ func (h *MPU6050Driver) initialize() (err error) {
 	if _, err = h.connection.Write([]byte{MPU6050_RA_ACCEL_CONFIG,
 		MPU6050_ACONFIG_AFS_SEL_BIT,
 		MPU6050_ACONFIG_AFS_SEL_LENGTH,
-		MPU6050_ACCEL_FS_2}); err != nil {
+		MPU6050_ACCEL_FS_4}); err != nil {
 		return
 	}
 
